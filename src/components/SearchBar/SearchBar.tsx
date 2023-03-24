@@ -17,11 +17,7 @@ function SearchBar({
   return (
     <View style={styles.container}>
       <View style={styles.iconContainer}>
-        <IconSearch
-          width={25}
-          height={25}
-          uri={'https://en.m.wikipedia.org/wiki/File:Magnifying_glass_icon.svg'}
-        />
+        <IconSearch width={25} height={25} />
       </View>
       <TextInput
         style={styles.textInput}
